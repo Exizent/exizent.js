@@ -1,0 +1,22 @@
+{
+  "name": "exizent-casemanagement-client",
+  "version": "0.0.1",
+  "description": "An API client for Exizent's Case Management API",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Exizent/exizent.js.git"
+  },
+  "author": "Exizent Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Exizent/exizent.js/issues"
+  },
+  "homepage": "https://github.com/Exizent/exizent.js#readme",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}
