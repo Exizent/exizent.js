@@ -11,10 +11,4 @@ module.exports = {
     tsconfigRootDir: __dirname,
     project: ["./tsconfig.json"],
   },
-  overrides: [
-    {
-      files: ["*.test.ts"],
-      parserOptions: { project: null },
-    },
-  ],
 };
