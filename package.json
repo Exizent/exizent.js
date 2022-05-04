@@ -1,0 +1,37 @@
+{
+  "name": "@exizent/case-management-client",
+  "version": "0.0.1",
+  "description": "An API client for Exizent's Case Management API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "build": "tsc --build",
+    "lint": "eslint . --ext .ts",
+    "prepare": "npm run build",
+    "prepublish": "npm test && npm run lint",
+    "preversion": "npm run lint"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Exizent/exizent.js.git"
+  },
+  "author": "Exizent Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Exizent/exizent.js/issues"
+  },
+  "homepage": "https://github.com/Exizent/exizent.js#readme",
+  "devDependencies": {
+    "@types/jest": "^27.5.0",
+    "@typescript-eslint/eslint-plugin": "^5.22.0",
+    "@typescript-eslint/parser": "^5.22.0",
+    "eslint": "^8.14.0",
+    "jest": "^28.0.3",
+    "ts-jest": "^28.0.0",
+    "typescript": "^4.6.3"
+  }
+}
